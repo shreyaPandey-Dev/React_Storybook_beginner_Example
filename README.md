@@ -1,7 +1,10 @@
--Git clone this project
+#Getting started
+>Git clone this project
+>npm install
+>npm run storybook
 
-npm install
-npm run storybook
+
+
 storybook is only used for building UI components and keeping them isolated from the react application(business logic). These components can be easily visualized when you run the storybook through this npm run storybook (windows) or yarn storybook(mac/ubuntu) command. It runs on a different port unlike npm start runs on the 3000 port by default.
 
 These components are then imported into the main react application. React will use these components based on the requirement. Storybook gives you the ability to browse all the UI components that you have built and then later react will use it. This allows you to develop one component at a time.
