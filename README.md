@@ -1,7 +1,8 @@
 #Getting started
->Git clone this project
->npm install
->npm run storybook
+
+1.Git clone this project
+2.npm install
+3.npm run storybook
 
 
 
